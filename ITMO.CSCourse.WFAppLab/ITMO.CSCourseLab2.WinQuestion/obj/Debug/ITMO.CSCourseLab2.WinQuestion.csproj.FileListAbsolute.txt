@@ -1,0 +1,9 @@
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\bin\Debug\ITMO.CSCourseLab2.WinQuestion.exe.config
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\bin\Debug\ITMO.CSCourseLab2.WinQuestion.exe
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\bin\Debug\ITMO.CSCourseLab2.WinQuestion.pdb
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\obj\Debug\ITMO.CSCourseLab2.WinQuestion.Form1.resources
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\obj\Debug\ITMO.CSCourseLab2.WinQuestion.Properties.Resources.resources
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\obj\Debug\ITMO.CSCourseLab2.WinQuestion.csproj.GenerateResource.cache
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\obj\Debug\ITMO.CSCourseLab2.WinQuestion.csproj.CoreCompileInputs.cache
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\obj\Debug\ITMO.CSCourseLab2.WinQuestion.exe
+C:\Users\makki\OneDrive\Desktop\ИТМО\Инженер программист\Разработка Windows-приложений на CSharp\MyProjects\ITMO.CSCourseLab2\ITMO.CSCourseLab2.WinQuestion\obj\Debug\ITMO.CSCourseLab2.WinQuestion.pdb
