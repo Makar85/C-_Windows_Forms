@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse.WFAppLab", "ITMO.CSCourse.WFAppLab\ITMO.CSCourse.WFAppLab.csproj", "{272CDB51-072F-492B-8412-50C2A80D98AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourseLab1.Ex1.2", "ITMO.CSCourseLab1.Ex1.2\ITMO.CSCourseLab1.Ex1.2.csproj", "{7343366A-1A04-4AA8-B973-7D56124EA768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse.WFAppLab1.2", "ITMO.CSCourse.WFAppLab1.2\ITMO.CSCourse.WFAppLab1.2.csproj", "{7343366A-1A04-4AA8-B973-7D56124EA768}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourseLab1.Ex4", "ITMO.CSCourseLab1.Ex4\ITMO.CSCourseLab1.Ex4.csproj", "{CE2C8F51-3439-4C0E-A385-ADFDEF72F614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse.WFAppLab1.4", "ITMO.CSCourse.WFAppLab1.4\ITMO.CSCourse.WFAppLab1.4.csproj", "{CE2C8F51-3439-4C0E-A385-ADFDEF72F614}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourseLab1.Ex5.1", "ITMO.CSCourseLab1.Ex5.1\ITMO.CSCourseLab1.Ex5.1.csproj", "{F56B418E-2DB3-466F-91B1-32E7133DA4A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse.WFAppLab1.5.1", "ITMO.CSCourse.WFAppLab1.5\ITMO.CSCourse.WFAppLab1.5.1.csproj", "{F56B418E-2DB3-466F-91B1-32E7133DA4A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourseLab1.Ex5.2", "ITMO.CSCourseLab1.Ex5.2\ITMO.CSCourseLab1.Ex5.2.csproj", "{172326B6-9C07-4C8C-B626-C9E0A75147BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse.WFAppLab1.5.2", "ITMO.CSCourse.WFAppLab1.5.2\ITMO.CSCourse.WFAppLab1.5.2.csproj", "{172326B6-9C07-4C8C-B626-C9E0A75147BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.SCCourseLab1.Ex1.1", "ITMO.SCCourseLab1.Ex1.1\ITMO.SCCourseLab1.Ex1.1.csproj", "{875FE509-6EE3-4248-AA37-A79DE32880DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{24D0EA22-6C16-4B7D-897A-935F8C1A32B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{272CDB51-072F-492B-8412-50C2A80D98AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{272CDB51-072F-492B-8412-50C2A80D98AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{272CDB51-072F-492B-8412-50C2A80D98AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{272CDB51-072F-492B-8412-50C2A80D98AA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7343366A-1A04-4AA8-B973-7D56124EA768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7343366A-1A04-4AA8-B973-7D56124EA768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7343366A-1A04-4AA8-B973-7D56124EA768}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +37,14 @@ Global
 		{172326B6-9C07-4C8C-B626-C9E0A75147BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{172326B6-9C07-4C8C-B626-C9E0A75147BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{172326B6-9C07-4C8C-B626-C9E0A75147BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875FE509-6EE3-4248-AA37-A79DE32880DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875FE509-6EE3-4248-AA37-A79DE32880DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875FE509-6EE3-4248-AA37-A79DE32880DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875FE509-6EE3-4248-AA37-A79DE32880DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D0EA22-6C16-4B7D-897A-935F8C1A32B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D0EA22-6C16-4B7D-897A-935F8C1A32B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D0EA22-6C16-4B7D-897A-935F8C1A32B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D0EA22-6C16-4B7D-897A-935F8C1A32B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
