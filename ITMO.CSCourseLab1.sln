@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourseLab1.Ex5.1", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourseLab1.Ex5.2", "ITMO.CSCourseLab1.Ex5.2\ITMO.CSCourseLab1.Ex5.2.csproj", "{172326B6-9C07-4C8C-B626-C9E0A75147BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.SCCourseLab1.Ex1.1", "ITMO.SCCourseLab1.Ex1.1\ITMO.SCCourseLab1.Ex1.1.csproj", "{875FE509-6EE3-4248-AA37-A79DE32880DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.SCCourseLab1.Ex1.1", "ITMO.CSCourseLab1.Ex1.1\ITMO.SCCourseLab1.Ex1.1.csproj", "{875FE509-6EE3-4248-AA37-A79DE32880DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
