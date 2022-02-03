@@ -95,11 +95,11 @@
     <Compile Include="CalcUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Engineer.cs">
+    <Compile Include="DialogForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Engineer.Designer.cs">
-      <DependentUpon>Engineer.cs</DependentUpon>
+    <Compile Include="DialogForm.Designer.cs">
+      <DependentUpon>DialogForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -109,8 +109,8 @@
     <EmbeddedResource Include="CalcUI.resx">
       <DependentUpon>CalcUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Engineer.resx">
-      <DependentUpon>Engineer.cs</DependentUpon>
+    <EmbeddedResource Include="DialogForm.resx">
+      <DependentUpon>DialogForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,10 +118,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Bitmap1.bmp" />
-    <Content Include="Bitmap2.bmp" />
-    <Content Include="Bitmap3.bmp" />
-    <Content Include="Bitmap4.bmp" />
+    <Content Include="CubeRt.bmp" />
+    <Content Include="fact.bmp" />
+    <Content Include="factorial.bmp" />
     <Content Include="digSqr.bmp" />
     <Content Include="Pow.bmp" />
     <Content Include="Sqrt.bmp" />

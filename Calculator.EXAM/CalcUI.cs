@@ -60,6 +60,13 @@ namespace SimpleCalculator
         private ToolStripMenuItem построениеГрафиковToolStripMenuItem1;
         private ToolStripMenuItem программистToolStripMenuItem1;
         private ToolStripMenuItem вычислениеДатыToolStripMenuItem1;
+        private Button KeyPow;
+        private Button KeySqrt;
+        private Button KeyInv;
+        private Button KeyGetSquare;
+        private Button KeyFact;
+        private Button KeyCubeRt;
+        private Button KeyUr2;
 
         /// <summary>
         /// Required designer variable.
@@ -104,6 +111,7 @@ namespace SimpleCalculator
 		/// </summary>
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalcUI));
             this.KeyDate = new System.Windows.Forms.Button();
             this.KeyOne = new System.Windows.Forms.Button();
             this.VersionInfo = new System.Windows.Forms.TextBox();
@@ -139,6 +147,13 @@ namespace SimpleCalculator
             this.построениеГрафиковToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.программистToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.вычислениеДатыToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.KeyPow = new System.Windows.Forms.Button();
+            this.KeySqrt = new System.Windows.Forms.Button();
+            this.KeyInv = new System.Windows.Forms.Button();
+            this.KeyGetSquare = new System.Windows.Forms.Button();
+            this.KeyFact = new System.Windows.Forms.Button();
+            this.KeyCubeRt = new System.Windows.Forms.Button();
+            this.KeyUr2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -423,7 +438,7 @@ namespace SimpleCalculator
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.MdiWindowListItem = this.фунцииToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(317, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(440, 24);
             this.menuStrip1.TabIndex = 22;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -485,6 +500,7 @@ namespace SimpleCalculator
             this.обычныйToolStripMenuItem1.Name = "обычныйToolStripMenuItem1";
             this.обычныйToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
             this.обычныйToolStripMenuItem1.Text = "Обычный";
+            this.обычныйToolStripMenuItem1.Click += new System.EventHandler(this.обычныйToolStripMenuItem1_Click);
             // 
             // инженерныйToolStripMenuItem1
             // 
@@ -511,12 +527,96 @@ namespace SimpleCalculator
             this.вычислениеДатыToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
             this.вычислениеДатыToolStripMenuItem1.Text = "Вычисление даты";
             // 
+            // KeyPow
+            // 
+            this.KeyPow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.KeyPow.Image = ((System.Drawing.Image)(resources.GetObject("KeyPow.Image")));
+            this.KeyPow.Location = new System.Drawing.Point(327, 87);
+            this.KeyPow.Name = "KeyPow";
+            this.KeyPow.Size = new System.Drawing.Size(48, 46);
+            this.KeyPow.TabIndex = 24;
+            this.KeyPow.UseVisualStyleBackColor = false;
+            this.KeyPow.Click += new System.EventHandler(this.KeyPow_Click);
+            this.KeyPow.MouseMove += new System.Windows.Forms.MouseEventHandler(this.KeyPow_MouseMove);
+            // 
+            // KeySqrt
+            // 
+            this.KeySqrt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.KeySqrt.Image = ((System.Drawing.Image)(resources.GetObject("KeySqrt.Image")));
+            this.KeySqrt.Location = new System.Drawing.Point(327, 140);
+            this.KeySqrt.Name = "KeySqrt";
+            this.KeySqrt.Size = new System.Drawing.Size(48, 46);
+            this.KeySqrt.TabIndex = 25;
+            this.KeySqrt.UseVisualStyleBackColor = false;
+            this.KeySqrt.Click += new System.EventHandler(this.KeySqrt_Click);
+            this.KeySqrt.MouseMove += new System.Windows.Forms.MouseEventHandler(this.KeySqrt_MouseMove);
+            // 
+            // KeyInv
+            // 
+            this.KeyInv.Image = ((System.Drawing.Image)(resources.GetObject("KeyInv.Image")));
+            this.KeyInv.Location = new System.Drawing.Point(327, 193);
+            this.KeyInv.Name = "KeyInv";
+            this.KeyInv.Size = new System.Drawing.Size(48, 46);
+            this.KeyInv.TabIndex = 26;
+            this.KeyInv.UseVisualStyleBackColor = true;
+            this.KeyInv.Click += new System.EventHandler(this.KeyInv_Click);
+            this.KeyInv.MouseMove += new System.Windows.Forms.MouseEventHandler(this.KeyInv_MouseMove);
+            // 
+            // KeyGetSquare
+            // 
+            this.KeyGetSquare.Image = ((System.Drawing.Image)(resources.GetObject("KeyGetSquare.Image")));
+            this.KeyGetSquare.Location = new System.Drawing.Point(327, 251);
+            this.KeyGetSquare.Name = "KeyGetSquare";
+            this.KeyGetSquare.Size = new System.Drawing.Size(48, 46);
+            this.KeyGetSquare.TabIndex = 27;
+            this.KeyGetSquare.UseVisualStyleBackColor = true;
+            this.KeyGetSquare.Click += new System.EventHandler(this.KeyGetSquare_Click);
+            this.KeyGetSquare.MouseMove += new System.Windows.Forms.MouseEventHandler(this.KeyGetSquare_MouseMove);
+            // 
+            // KeyFact
+            // 
+            this.KeyFact.Image = ((System.Drawing.Image)(resources.GetObject("KeyFact.Image")));
+            this.KeyFact.Location = new System.Drawing.Point(381, 87);
+            this.KeyFact.Name = "KeyFact";
+            this.KeyFact.Size = new System.Drawing.Size(48, 46);
+            this.KeyFact.TabIndex = 28;
+            this.KeyFact.UseVisualStyleBackColor = true;
+            this.KeyFact.Click += new System.EventHandler(this.KeyFact_Click);
+            // 
+            // KeyCubeRt
+            // 
+            this.KeyCubeRt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("KeyCubeRt.BackgroundImage")));
+            this.KeyCubeRt.Location = new System.Drawing.Point(381, 141);
+            this.KeyCubeRt.Name = "KeyCubeRt";
+            this.KeyCubeRt.Size = new System.Drawing.Size(48, 46);
+            this.KeyCubeRt.TabIndex = 29;
+            this.KeyCubeRt.UseVisualStyleBackColor = true;
+            this.KeyCubeRt.Click += new System.EventHandler(this.KeyCubeRt_Click);
+            // 
+            // KeyUr2
+            // 
+            this.KeyUr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F);
+            this.KeyUr2.Location = new System.Drawing.Point(382, 194);
+            this.KeyUr2.Name = "KeyUr2";
+            this.KeyUr2.Size = new System.Drawing.Size(48, 46);
+            this.KeyUr2.TabIndex = 30;
+            this.KeyUr2.Text = "Ur2";
+            this.KeyUr2.UseVisualStyleBackColor = true;
+            this.KeyUr2.Click += new System.EventHandler(this.KeyUr2_Click);
+            // 
             // CalcUI
             // 
             this.AcceptButton = this.KeyZero;
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(317, 302);
+            this.BackColor = System.Drawing.Color.LightGray;
+            this.ClientSize = new System.Drawing.Size(440, 302);
+            this.Controls.Add(this.KeyUr2);
+            this.Controls.Add(this.KeyCubeRt);
+            this.Controls.Add(this.KeyFact);
+            this.Controls.Add(this.KeyGetSquare);
+            this.Controls.Add(this.KeyInv);
+            this.Controls.Add(this.KeySqrt);
+            this.Controls.Add(this.KeyPow);
             this.Controls.Add(this.KeyOne);
             this.Controls.Add(this.KeyTwo);
             this.Controls.Add(this.KeyThree);
@@ -548,6 +648,7 @@ namespace SimpleCalculator
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simple Calculator";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.CalcUI_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -686,11 +787,10 @@ namespace SimpleCalculator
 
         private void инженерныйToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            
-            Engineer newEngineer = new Engineer();
-            newEngineer.Show();
-            toolStripMenuItem1.Enabled = false;
-            this.Visible = false;
+            this.Width = 440;
+            this.Text = "Engineer mode";
+            //Engineer newEngineer = new Engineer();
+            //newEngineer.Show();            
                         
         }
 
@@ -749,5 +849,85 @@ namespace SimpleCalculator
             ToolTip equal = new ToolTip();
             equal.SetToolTip(KeyEqual, "Равно");
         }
+
+        private void KeyPow_Click(object sender, EventArgs e)
+        {
+            CalcEngine.CalcOperation(CalcEngine.Operator.ePow);   // Новая операция
+        }
+
+        private void KeySqrt_Click(object sender, EventArgs e)
+        {
+            CalcEngine.CalcOperation1(CalcEngine.Operator1.eSqrt);   // Новая операция
+        }
+
+        private void KeyInv_Click(object sender, EventArgs e)
+        {
+            CalcEngine.CalcOperation1(CalcEngine.Operator1.eInv);    // Новая операция
+        }
+
+        private void KeyGetSquare_Click(object sender, EventArgs e)
+        {
+            CalcEngine.CalcOperation1(CalcEngine.Operator1.eSquare);   // Новая операция
+        }
+
+               
+
+        private void CalcUI_Load(object sender, EventArgs e)
+        {
+            this.Width = 305;
+        }
+
+        private void KeyPow_MouseMove(object sender, MouseEventArgs e)
+        {
+            ToolTip ePow = new ToolTip();
+            ePow.SetToolTip(KeyPow, "Возведение в степень");
+        }
+
+        private void KeySqrt_MouseMove(object sender, MouseEventArgs e)
+        {
+            ToolTip eSqrt = new ToolTip();
+            eSqrt.SetToolTip(KeySqrt, "Извлечение квадратного корня");
+        }
+
+        private void KeyInv_MouseMove(object sender, MouseEventArgs e)
+        {
+            ToolTip eInv = new ToolTip();
+            eInv.SetToolTip(KeyInv, "Расчет обратного значения");
+        }
+
+        private void KeyGetSquare_MouseMove(object sender, MouseEventArgs e)
+        {
+            ToolTip eGetSquare = new ToolTip();
+            eGetSquare.SetToolTip(KeyGetSquare, "Определение квадрата числа");
+        }
+
+        private void обычныйToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Width = 305;
+            this.Text = "Simple Calculator";
+        }
+
+        private void KeyFact_Click(object sender, EventArgs e)
+        {
+            CalcEngine.CalcOperation1(CalcEngine.Operator1.eFact);  // Новая операция, факториал
+        }
+
+        private void KeyCubeRt_Click(object sender, EventArgs e)
+        {
+            CalcEngine.CalcOperation1(CalcEngine.Operator1.eCubeRt);  // Новая операция, извлечение кубического корня
+        }
+
+        private void KeyUr2_Click(object sender, EventArgs e)
+        {
+            DialogForm newDialog = new DialogForm();
+            newDialog.Show();
+        }
+
+        public string ShowResult1(string result)
+        {
+            return OutputDisplay.Text = result;
+        }
     }
+
+    
 }
